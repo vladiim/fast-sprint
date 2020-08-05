@@ -1,0 +1,31 @@
+---
+authors:
+  - brad-czerniak
+#categories: ["one", "two"]
+classes: ""
+#date: 2020-03-03 02:02:02
+#published: true
+#tags: ["three", "four"]
+title: "Call to action"
+title_classes: " text-align--center"
+---
+
+<div class="layout--row display--flex">
+  <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+    padding-horizontal--4 padding-horizontal--collapse">
+    <p>This version of the site redesign was primarily completed in about 2 days.</p>
+
+    <p>If you want a high-quality site with all of the features but very little of the cost, get in touch with Brad.</p>
+
+    {% include atoms/spacer.html size="2" %}
+
+    <a class="button cta" href="https://solveitonce.com">Solve it once</a>
+  </aside>
+  <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
+    {% include atoms/image.html
+      src="logo-mark.png"
+      alt="Solve it once logo"
+      classes=""
+    %}
+  </aside>
+</div>
